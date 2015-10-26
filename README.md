@@ -1,2 +1,2 @@
-# flexgrid
+# Flexgrid
 Flexbox CSS Layout System
