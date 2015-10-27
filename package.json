@@ -1,0 +1,23 @@
+{
+  "name": "flexgrid",
+  "version": "1.0.0",
+  "description": "Flexbox based CSS layout framework",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-cnnadi/flexgrid.git"
+  },
+  "keywords": [
+    "CSS",
+    "Framework"
+  ],
+  "author": "Chidiebere I. Nnadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-cnnadi/flexgrid/issues"
+  },
+  "homepage": "https://github.com/andela-cnnadi/flexgrid"
+}
