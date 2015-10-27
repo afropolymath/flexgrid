@@ -8,6 +8,7 @@ To use Flexgrid, all you need to do is embed the compiled CSS within your web pa
 <link rel="stylesheet" href="/dist/flexgrid.min.css" />
 ```
 
+##Getting Started
 To get started using the flex features you can create a parent flex container using the `flex` class
 
 ```html
