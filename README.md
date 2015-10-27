@@ -86,13 +86,24 @@ Horizontal alignment is similar to vertical alignment but we make use of a base 
 </div>
 ```
 
-At any point in time, if we need to make a child element fill up space in the parent, use the `fill-parent` class. A typical example would be if we need to create a simple navigation bar with a logo and some other text. Using **Flexgrid** you could do this:
+At any point in time, if we need to make a child element fill up space in the parent, use the `fill` class. A typical example would be if we need to create a simple navigation bar with a logo and some other text. Using **Flexgrid** you could do this:
 
 ```html
 <div class="flex row-layout">
   <div class="logo">Logo</div>
-  <div class="fill-parent">Side by side element</div>
+  <div class="fill">Side by side element</div>
 </div>
 ```
 
 In this example above, the `logo` div has a fixed size which is set in the CSS, while the other div is made to fill up all the remainder space in the parent div.
+
+You can use this class to create different types of layouts. A typical example will be creating a 4 column grid with evenly sized columns. You can do this very easily with Flexgrid. All you need to do is set `fill` on all classes below the parent.
+
+```html
+<div class="flex row-layout">
+  <div class="fill">Side by side element</div>
+  <div class="fill">Side by side element</div>
+  <div class="fill">Side by side element</div>
+  <div class="fill">Side by side element</div>
+</div>
+```
