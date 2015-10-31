@@ -1,9 +1,9 @@
-.container {
+.fg-container {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto; }
 
-.container-fluid {
+.fg-container-fluid {
   width: 100%;
   padding: 0 30px; }
 
@@ -29,7 +29,34 @@
     justify-content: flex-start; }
   .flex.horizontal.align-bottom {
     justify-content: flex-end; }
-  .flex .fill-parent {
+  .flex.align-top-left {
+    justify-content: flex-start;
+    align-items: flex-start; }
+  .flex.align-top-center {
+    justify-content: center;
+    align-items: flex-start; }
+  .flex.align-top-right {
+    justify-content: flex-end;
+    align-items: flex-start; }
+  .flex.align-middle-left {
+    justify-content: flex-start;
+    align-items: center; }
+  .flex.align-middle-center {
+    justify-content: center;
+    align-items: center; }
+  .flex.align-middle-right {
+    justify-content: flex-end;
+    align-items: center; }
+  .flex.align-bottom-left {
+    justify-content: flex-start;
+    align-items: flex-end; }
+  .flex.align-bottom-center {
+    justify-content: center;
+    align-items: flex-end; }
+  .flex.align-bottom-right {
+    justify-content: flex-end;
+    align-items: flex-end; }
+  .flex .fill {
     flex-grow: 1;
     flex-shrink: 0; }
   .flex .override.vertical.align-top {
