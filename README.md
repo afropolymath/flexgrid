@@ -47,11 +47,11 @@ To make use of child element positioning available in Flexgrid, you can make use
 What this means is that, for instance, to get that vertical centered div you've been looking for, all you need to do is this.
 ```html
 <div class="flex row-layout align-middle-left">
-  <div>Side by side element</div>
-  <div>Side by side element</div>
+  <div>DIV 1</div>
+  <div>DIV 2</div>
 </div>
 ```
-Doing this aligns Div1 and Div2 side by side and vertically centered within the parent `div`. 
+Doing this aligns DIV1 and DIV2 side by side and vertically centered within the parent `div`. 
 
 The classes above are shortcut classes for the much longer `<axis> <alignment>` classes, where `<axis>` can be one of `vertical` or `horizontal`, and represent the axis we are targetting to align child elements in. The `<alignment>` class depends on the `<axis>` class specified and for `vertical` can be `align-top`, `align-middle` and `align-bottom`. Specifying `vertical <alignment>` will align child elements to the top, middle or bottom depending on what `<alignment>` was specified.
 
