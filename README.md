@@ -1,6 +1,13 @@
 # Flexgrid
 Flexgrid is a flexbox based CSS Layout System. It's simple and easy to use and can be used on it's own or with any other CSS framework.
 
+##Installation
+Installing Flexgrid can be done very easily using bower.
+
+```
+bower install flxgrid --save
+```
+
 ##Usage
 To use Flexgrid, all you need to do is embed the compiled CSS within your web page.
 
@@ -34,9 +41,21 @@ To arrange child elements in a column
 </div>
 ```
 
-Some other operations you can perform include aligning child elements in the vertical and horizontal axes. To align the child elements in the vertical axis, you will be using a base class of `vertical`. This class is used in conjunction with another class which specifies how the alignment should be.
+##Child Element Positioning
+To make use of child element positioning available in Flexgrid, you can make use of one of the `align-<vertical>-<horizontal>` classes where `<vertical>` can be one of `top`, `middle` and `bottom` and `<horizontal>` can be one of `left`, `center` and `bottom`.
 
-*Align Child Elements in the vertical center*
+What this means is that, for instance, to get that vertical centered div you've been looking for, all you need to do is this.
+```html
+<div class="flex row-layout align-middle-left">
+  <div>Side by side element</div>
+  <div>Side by side element</div>
+</div>
+```
+Doing this aligns Div1 and Div2 side by side and vertically centered within the parent `div`. 
+
+The classes above are shortcut classes for the much longer `<axis> <alignment>` classes, where `<axis>` can be one of `vertical` or `horizontal`, and represent the axis we are targetting to align child elements in. The `<alignment>` class depends on the `<axis>` class specified and for `vertical` can be `align-top`, `align-middle` and `align-bottom`. Specifying `vertical <alignment>` will align child elements to the top, middle or bottom depending on what `<alignment>` was specified.
+
+*We could align child elements to the bottom doing this*
 ```html
 <div class="flex row-layout vertical align-center">
   <div>Side by side element</div>
@@ -44,43 +63,19 @@ Some other operations you can perform include aligning child elements in the ver
 </div>
 ```
 
-*Align Child Elements in the vertical top*
-```html
-<div class="flex row-layout vertical align-top">
-  <div>Side by side element</div>
-  <div>Side by side element</div>
-</div>
-```
+The same exact thing goes for horizontal alignment. You can specify `align-left`, `align-center` or `align-right` for the `<alignment>` in this case and it does exactly what you'd expect. Aligns the child elements left, center or right.
 
-*Align Child Elements in the vertical bottom*
-```html
-<div class="flex row-layout vertical align-bottom">
-  <div>Side by side element</div>
-  <div>Side by side element</div>
-</div>
-```
-
-Horizontal alignment is similar to vertical alignment but we make use of a base class of `horizontal` along with another class that specifies the horizontal direction.
-
-*Align Child Elements in the horizontal left*
-```html
-<div class="flex row-layout horizontal align-left">
-  <div>Side by side element</div>
-  <div>Side by side element</div>
-</div>
-```
-
-*Align Child Elements in the horizontal center*
-```html
-<div class="flex row-layout horizontal align-center">
-  <div>Side by side element</div>
-  <div>Side by side element</div>
-</div>
-```
-
-*Align Child Elements in the horizontal right*
+*We could align child elements to the right doing this*
 ```html
 <div class="flex row-layout horizontal align-right">
+  <div>Side by side element</div>
+  <div>Side by side element</div>
+</div>
+```
+
+*We could align combine both like this to align child elements to middle right*
+```html
+<div class="flex row-layout horizontal align-right vertical align-center">
   <div>Side by side element</div>
   <div>Side by side element</div>
 </div>
