@@ -1,5 +1,6 @@
 # Flexgrid
 [![Bower version](https://badge.fury.io/bo/flxgrid.svg)](https://badge.fury.io/bo/flxgrid)
+[![GitHub version](https://badge.fury.io/gh/andela-cnnadi%2Fflexgrid.svg)](https://badge.fury.io/gh/andela-cnnadi%2Fflexgrid)
 
 Flexgrid is a flexbox based CSS Layout System. It's simple and easy to use and can be used on it's own or with any other CSS framework.
 
