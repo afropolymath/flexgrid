@@ -1,4 +1,5 @@
 # Flexgrid
+[![Code Climate](https://codeclimate.com/github/andela-cnnadi/flexgrid/badges/gpa.svg)](https://codeclimate.com/github/andela-cnnadi/flexgrid)
 [![Bower version](https://badge.fury.io/bo/flxgrid.svg)](https://badge.fury.io/bo/flxgrid)
 [![GitHub version](https://badge.fury.io/gh/andela-cnnadi%2Fflexgrid.svg)](https://badge.fury.io/gh/andela-cnnadi%2Fflexgrid)
 
