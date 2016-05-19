@@ -15,7 +15,7 @@
     flex-direction: row; }
   .flex.column-layout {
     flex-direction: column; }
-  .flex.vertical.align-center {
+  .flex.vertical.align-middle {
     align-items: center; }
   .flex.vertical.align-top {
     align-items: flex-start; }
@@ -25,9 +25,9 @@
     align-items: stretch; }
   .flex.horizontal.align-center {
     justify-content: center; }
-  .flex.horizontal.align-top {
+  .flex.horizontal.align-left {
     justify-content: flex-start; }
-  .flex.horizontal.align-bottom {
+  .flex.horizontal.align-right {
     justify-content: flex-end; }
   .flex.align-top-left {
     justify-content: flex-start;

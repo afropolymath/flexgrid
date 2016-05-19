@@ -25,7 +25,7 @@
   }
 
   &.vertical {
-    &.align-center {
+    &.align-middle {
       align-items: center;
     }
 
@@ -47,11 +47,11 @@
       justify-content: center;
     }
 
-    &.align-top {
+    &.align-left {
       justify-content: flex-start;
     }
 
-    &.align-bottom {
+    &.align-right {
       justify-content: flex-end;
     }
   }
